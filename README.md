@@ -7,7 +7,7 @@
 - [ ] Smart Contract(s) (Code should be commented)  
 - [ ] Test File(s) (Test cases should be commented)  
 - [ ] Working Demo of Application (A video or screen recording of the flow and functionalities of the application)  
-- [ ] Pitch Deck (PDF).  
+- [x] Pitch Deck (PDF).  
 - [ ] Public Test network Deployment details (TXT).  
   - [ ] Verify the contract  
   - [ ] Contract Address  
