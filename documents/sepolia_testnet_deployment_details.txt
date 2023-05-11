@@ -1,0 +1,64 @@
+PUBLIC TEST NETWORK DEPLOYMENT DETAILS
+---------------------------------------
+---------------------------------------
+
+1. Public Testnet Used: Sepolia
+2. Contracts deployed address (Contract Creator): 0x2B1C321a1bD874f8aa6783fD32418C11aF235E7B at txn 0xf2db251a1f0e1fc72801d46801b4f2bb45b75d28a6d4ea3618c455d5b5107bd7
+3. Etherscan URL for the above address: https://sepolia.etherscan.io/address/0x2b1c321a1bd874f8aa6783fd32418c11af235e7b
+4. Contract address: 0xdE36D503832161c5cD2edc59f0E1b5fDC2E41C01  (VERIFIED) (https://sepolia.etherscan.io/address/0xde36d503832161c5cd2edc59f0e1b5fdc2e41c01) //Other contracts deployed while development can also see in the contract deployed account address(Contract Creator).
+5. UML Diagram: https://sepolia.etherscan.io/viewsvg?t=1&a=0xde36d503832161c5cd2edc59f0e1b5fdc2e41c01
+
+
+
+CONSOLE OUTPUT
+---------------------------------------
+---------------------------------------
+
+C:\Users\itsme\github-classroom\Kerala-Blockchain-Academy\project-submission-HashirAKB> truffle migrate 
+--reset --network sepolia
+
+Compiling your contracts...
+===========================
+> Compiling .\contracts\Voting.sol
+> Artifacts written to C:\Users\itsme\github-classroom\Kerala-Blockchain-Academy\project-submission-HashirAKB\client\src\contracts
+> Compiled successfully using:
+   - solc: 0.8.14+commit.80d49f37.Emscripten.clang
+
+
+Starting migrations...
+======================
+> Network name:    'sepolia'
+> Network id:      11155111
+> Block gas limit: 30000000 (0x1c9c380)
+
+1_deploy_election.js
+====================
+
+   Deploying 'Election'
+   --------------------
+   > transaction hash:    0xcf8d505c708e2cfc024ff280ab8c7ed4d7f2ae32b49b0f51ec747c5daa8f6f95
+   > Blocks: 2            Seconds: 26
+   > contract address:    0xC813e912212928d4230A642cd64a7AEE1A500716
+   > block number:        3425174
+   > block timestamp:     1683308100
+   > account:             0x2B1C321a1bD874f8aa6783fD32418C11aF235E7B
+   > balance:             0.49552617498747329
+   > gas used:            1493405 (0x16c99d)
+   > gas price:           2.500000007 gwei
+   > value sent:          0 ETH
+   > total cost:          0.003733512510453835 ETH
+
+   Pausing for 2 confirmations...
+
+   -------------------------------
+   > confirmation number: 1 (block: 3425175)
+   > confirmation number: 2 (block: 3425176)
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.003733512510453835 ETH
+   
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.003733512510453835 ETH  
