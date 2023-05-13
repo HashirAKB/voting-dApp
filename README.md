@@ -31,8 +31,28 @@ transparent and auditable, thus improving the integrity and trustworthiness of e
 11. From terminal, move to the client folder using 'cd client'. Install node modules using command 'npm install'.
 12. Run the frontend using the command 'npm start'.
 13. Visit URL in your browser: http://localhost:3000
+## Execution Flow (Admin)
 
+1. User opens the Home page.
+2. Opens metamask wallet client and connect with the admin account. (Admin account: Account which deployed the smart contract.)
+3. Entering the voting system.
+4. In the admin page, admin can control the election procedures. Other users/accounts do not have the privilege to access this screen.
+5. Admin user can start or end the election, add voters and candidates.
+6. Admin registers a few voters by inputing their public addresses.
+7. Admin registers candidate by inputing candidate names.
+8. Admin starts the election, The state of election changes to inProgress.
+9. Admin ends the election after votes are casted.
+10. Final results are displayed.
+## Execution Flow (Voter)
 
+1. User opens the Home page.
+2. Opens metamask wallet client and connect with the voter account. (Voter account: Accounts which registered by admin as voters.)
+3. Entering the voting system.
+4. If the account is not registered as a voter account, system displayes as "Unauthorised user".
+5. The voting window opens for the voter only if the election state is in progress, else it displays 'Election is not started yet' or 'Election ended' as per the current state.
+6. In the voting window, voter can see the list of candidates.
+7. Voter cast the votes.
+8. The results will be displayed to the voter after election is over.
 
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10790591&assignment_repo_type=AssignmentRepo)
 # CED-Project
@@ -48,9 +68,9 @@ transparent and auditable, thus improving the integrity and trustworthiness of e
   - [x] Verify the contract  
   - [x] Contract Address  
   - [x] Network Name  
-- [ ] Readme file (Readme.md)  
-  - [ ] Step-by-step instructions for setting up the application for use.  
-  - [ ] Complete execution flow of the dApp  
+- [x] Readme file (Readme.md)  
+  - [x] Step-by-step instructions for setting up the application for use.  
+  - [x] Complete execution flow of the dApp  
 - [x] Design Document file (PDF)  
   - [x] Project Proposal (Title, Problem Statement, Proposed System, Existing System, Need for Ethereum Blockchain).  
   - [x] Rough and neat workflow diagram of the decentralized application.  
