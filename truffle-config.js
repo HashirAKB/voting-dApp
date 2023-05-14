@@ -41,8 +41,8 @@
  * https://trufflesuite.com/docs/truffle/getting-started/using-the-truffle-dashboard/
  */
 
-require('dotenv').config();
-const { MNEMONIC, PROJECT_ID } = process.env;
+// require('dotenv').config();
+// const { MNEMONIC, PROJECT_ID } = process.env;
 const path = require("path");
 const HDWalletProvider = require('@truffle/hdwallet-provider');
 addressIndex = 0;
@@ -66,20 +66,21 @@ module.exports = {
     // tab if you use this network and you must also set the `host`, `port` and `network_id`
     // options below to some value.
     //
-    development: {
+    ganache: {
       host: "127.0.0.1", // Localhost (default: none)
       port: 7545, // Standard Ethereum port (default: none)
       network_id: "*", // Any network (default: none)
-      // from: "0x7dE3f9A2f5f2b57af36012D2dC7D1d9924D6E817",
+      // from: "0x8b19e66DA324Fac6752A8345bCDb7839d4422735"
+      
     },
-    sepolia: {
-      provider: () => new HDWalletProvider(MNEMONIC, `https://sepolia.infura.io/v3/${PROJECT_ID}`,addressIndex, numberOfAddresses),
-      network_id: "*",       // Rinkeby's id
-      gas: 5500000,        // Ropsten has a lower block limit than mainnet
-      confirmations: 2,    // # of confs to wait between deployments. (default: 0)
-      timeoutBlocks: 200,  // # of blocks before a deployment times out  (minimum/default: 50)
-      skipDryRun: true     // Skip dry run before migrations? (default: false for public nets )
-    }
+    // sepolia: {
+    //   provider: () => new HDWalletProvider(MNEMONIC, `https://sepolia.infura.io/v3/${PROJECT_ID}`,addressIndex, numberOfAddresses),
+    //   network_id: "*",       // Rinkeby's id
+    //   gas: 5500000,        // Ropsten has a lower block limit than mainnet
+    //   confirmations: 2,    // # of confs to wait between deployments. (default: 0)
+    //   timeoutBlocks: 200,  // # of blocks before a deployment times out  (minimum/default: 50)
+    //   skipDryRun: true     // Skip dry run before migrations? (default: false for public nets )
+    // }
     //
     // An additional network, but with some advanced options…
     // advanced: {
