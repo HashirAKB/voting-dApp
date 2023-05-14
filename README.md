@@ -62,7 +62,7 @@ transparent and auditable, thus improving the integrity and trustworthiness of e
 - [x] Web Application (Code should be commented)  
 - [x] Smart Contract(s) (Code should be commented)  
 - [x] Test File(s) (Test cases should be commented)  
-- [ ] Working Demo of Application (A video or screen recording of the flow and functionalities of the application)  
+- [x] Working Demo of Application (A video or screen recording of the flow and functionalities of the application)  
 - [x] Pitch Deck (PDF).  
 - [x] Public Test network Deployment details (TXT).  
   - [x] Verify the contract  
