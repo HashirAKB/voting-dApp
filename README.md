@@ -16,6 +16,13 @@ alternative to traditional voting systems, while also ensuring the privacy and s
 voters' information. By using smart contracts to automate the counting and verification of
 ballots, the proposed system creates a decentralized, trustless voting process that is
 transparent and auditable, thus improving the integrity and trustworthiness of elections.
+## Screenshots
+
+![coverpage](screenshots/cover.png) &nbsp;
+![admin](screenshots/admin.png) &nbsp;
+![vote](screenshots/vote.png) &nbsp;
+![live results](screenshots/live_results.png) &nbsp;
+![result](screenshots/result.png) &nbsp;
 ## Installation
 
 1. Clone the project & open in it VS code: git clone https://github.com/Kerala-Blockchain-Academy/project-submission-HashirAKB.git
